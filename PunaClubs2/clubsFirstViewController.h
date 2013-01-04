@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface clubsFirstViewController : UIViewController
+@interface clubsFirstViewController : UITableViewController
+{
+    NSMutableArray * displayItems;
+}
+@property (nonatomic, strong) NSMutableArray *clubs;
+@property (nonatomic, strong) NSString *dictionary;
+
 
 @end

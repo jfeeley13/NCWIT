@@ -1,22 +1,21 @@
 //
-//  clubsFirstViewController.m
-//  PunaClubs2
+//  clubMasterViewController.m
+//  proposal
 //
-//  Created by JFeeley13 on 1/3/13.
-//  Copyright (c) 2013 JFeeley13. All rights reserved.
+//  Created by JFeeley13 on 10/24/12.
+//  Copyright (c) 2012 JFeeley13. All rights reserved.
 //
 
-#import "clubsFirstViewController.h"
-#import "clubsDetailViewController.h"
+#import "clubMasterViewController.h"
+#import "clubDetailViewController.h"
 
-
-@interface clubsFirstViewController ()
+@interface clubMasterViewController ()
 {
     NSMutableArray *_objects;
 }
 @end
 
-@implementation clubsFirstViewController
+@implementation clubMasterViewController
 @synthesize clubs=_objects;
 
 
@@ -28,10 +27,11 @@
 - (void)viewDidLoad
 {
     self.navigationItem.title = @"Club List";
-    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Clubs"ofType:@"plist"];
+    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Property List"ofType:@"plist"];
     [super viewDidLoad];
     _objects = [[NSMutableArray alloc]initWithContentsOfFile:thePath];
-  //  NSLog(@" %@", _objects);
+    
+	//displayItems = [[NSMutableArray alloc] initWithArray:_objects];
 }
 
 - (void)didReceiveMemoryWarning
@@ -60,10 +60,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
+
     cell.textLabel.text = [[_objects objectAtIndex:indexPath.row]objectForKey:@"Name"];
     return cell;
-    
+
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -74,11 +74,10 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    
-    [segue.destinationViewController  setDetailItem:[_objects objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
-    
-}
+
+        [segue.destinationViewController  setDetailItem:[_objects objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
+
+    }
 
 
 @end
-
