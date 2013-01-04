@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="favClubNames" textLabel="eST-8l-8sJ" style="IBUITableViewCellStyleDefault" id="Ygh-ME-WQH">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="favClubNames" textLabel="eST-8l-8sJ" style="IBUITableViewCellStyleDefault" id="Ygh-ME-WQH">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -29,7 +29,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
-                                    <segue destination="WIz-PZ-v3r" kind="push" id="9Ej-bB-izS"/>
+                                    <segue destination="WIz-PZ-v3r" kind="push" id="u2Z-fo-Idt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -205,7 +205,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jVi-JG-0la">
+                                    <segmentedControl opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jVi-JG-0la">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="135" id="hHB-gR-29t"/>
                                         </constraints>
@@ -356,7 +356,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1I-2H-0np">
                                         <color key="backgroundColor" red="0.71578568620000005" green="0.96938775509999997" blue="0.95886515890000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="99" id="cT0-on-9t2"/>
+                                            <constraint firstAttribute="height" constant="182" id="W3j-MF-lpK"/>
                                             <constraint firstAttribute="width" constant="286" id="jBf-h2-ec1"/>
                                         </constraints>
                                         <string key="text">Bio Blitz is a 24-hour survey of all organisms in a given area. This event is done all over the world and has been done at Punahou since 2007. In our Bio Blitz, we work with UH and have so far collected over 500 specimen. We do this event once in the spring and once in the summer as part of the freshman biology class as they experience real field work by catching, documenting, and pinning insects. This group will benefit both the freshman biology classes and Bio Blitz members by brining awareness to the environment and to the diversity of the planet.</string>
@@ -365,24 +365,6 @@
                                     </textView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK5-gV-mYF">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcR-jh-lrC">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="72" id="5x5-Jl-5CI"/>
-                                            <constraint firstAttribute="height" constant="33" id="BFR-M8-Ogl"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Can I Join?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6b-pM-Nih">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="99" id="EME-cb-5HB"/>
-                                            <constraint firstAttribute="height" constant="29" id="Sna-kW-2iR"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -433,27 +415,6 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gCK-3b-Xbd">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="135" id="t43-la-gcy"/>
-                                        </constraints>
-                                        <segments>
-                                            <segment title="No"/>
-                                            <segment title="Yes!"/>
-                                        </segments>
-                                        <connections>
-                                            <action selector="favoriteToggleChanged:" destination="WIz-PZ-v3r" eventType="valueChanged" id="PDw-Th-3Fq"/>
-                                        </connections>
-                                    </segmentedControl>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Favorite Club?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VH9-qm-B2A">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="32" id="txr-r6-0ww"/>
-                                            <constraint firstAttribute="width" constant="128" id="wtz-Xs-1Ng"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="@gmail.com" translatesAutoresizingMaskIntoConstraints="NO" id="qFo-Vk-rzL">
                                         <color key="backgroundColor" red="0.30375119630000003" green="0.69658821780000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -467,27 +428,19 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.30375119630000003" green="0.69658821780000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="gCK-3b-Xbd" firstAttribute="trailing" secondItem="VH9-qm-B2A" secondAttribute="trailing" type="default" id="1nI-Kv-5ih"/>
                                     <constraint firstItem="qFo-Vk-rzL" firstAttribute="trailing" secondItem="U58-wq-6RM" secondAttribute="trailing" type="default" id="1rV-6h-Xlq"/>
                                     <constraint firstItem="pJP-5H-Ogd" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="37" id="4KZ-sc-538"/>
                                     <constraint firstItem="Z6V-ZM-g0x" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="-14" id="6Bb-Wd-vPD"/>
                                     <constraint firstItem="qFo-Vk-rzL" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="131" id="H6b-XG-eki"/>
-                                    <constraint firstItem="gCK-3b-Xbd" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="211" id="Jvi-J9-gBX"/>
                                     <constraint firstItem="BK5-gV-mYF" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="125" id="MnQ-y3-c3N"/>
                                     <constraint firstItem="BK5-gV-mYF" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="85" id="NYK-jD-4Xs"/>
-                                    <constraint firstItem="VH9-qm-B2A" firstAttribute="trailing" secondItem="pJP-5H-Ogd" secondAttribute="trailing" type="default" id="Pxr-x4-hHV"/>
-                                    <constraint firstItem="HEU-R2-J8p" firstAttribute="leading" secondItem="V6b-pM-Nih" secondAttribute="leading" type="default" id="Wmv-qS-OIu"/>
                                     <constraint firstItem="Z6V-ZM-g0x" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="97" id="dJt-V4-f06"/>
                                     <constraint firstItem="pJP-5H-Ogd" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="3" id="dyW-ev-Pvf"/>
-                                    <constraint firstItem="VH9-qm-B2A" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="179" id="fxG-I7-grX"/>
                                     <constraint firstItem="bYr-xK-UTw" firstAttribute="leading" secondItem="HEU-R2-J8p" secondAttribute="leading" type="default" id="hsu-tZ-Y7a"/>
-                                    <constraint firstItem="wcR-jh-lrC" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="113" id="js1-c2-11b"/>
                                     <constraint firstAttribute="bottom" secondItem="y1I-2H-0np" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="lkz-XF-dG0"/>
-                                    <constraint firstItem="wcR-jh-lrC" firstAttribute="top" secondItem="V6b-pM-Nih" secondAttribute="top" type="default" id="lsj-Gq-UbW"/>
                                     <constraint firstItem="y5p-wb-mcO" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="80" id="sWh-1h-2dp"/>
                                     <constraint firstItem="y5p-wb-mcO" firstAttribute="top" secondItem="pJP-5H-Ogd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="sxR-XD-ymO"/>
                                     <constraint firstItem="bYr-xK-UTw" firstAttribute="leading" secondItem="U58-wq-6RM" secondAttribute="leading" constant="16" id="vvr-SQ-hE0"/>
-                                    <constraint firstItem="V6b-pM-Nih" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="188" id="wl8-Et-Fio"/>
                                     <constraint firstItem="bYr-xK-UTw" firstAttribute="top" secondItem="pJP-5H-Ogd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xKE-MG-GsX"/>
                                     <constraint firstItem="HEU-R2-J8p" firstAttribute="top" secondItem="U58-wq-6RM" secondAttribute="top" constant="137" id="xzi-lc-kfc"/>
                                     <constraint firstAttribute="trailing" secondItem="y1I-2H-0np" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="zmb-xm-HFz"/>
@@ -510,9 +463,7 @@
                         <outlet property="contactLabel" destination="qFo-Vk-rzL" id="BIY-Ny-vq2"/>
                         <outlet property="descriptionLabel" destination="y1I-2H-0np" id="V1Z-C9-zu5"/>
                         <outlet property="detailDescriptionLabel" destination="Cge-lG-APc" id="Isg-ZC-L9d"/>
-                        <outlet property="favoriteToggle" destination="gCK-3b-Xbd" id="mgR-hb-8Ry"/>
                         <outlet property="meetLabel" destination="y5p-wb-mcO" id="7DF-yg-DNZ"/>
-                        <outlet property="membersLabel" destination="wcR-jh-lrC" id="HJP-sm-Zug"/>
                         <outlet property="nameLabel" destination="pJP-5H-Ogd" id="4sc-rZ-e0J"/>
                     </connections>
                 </viewController>
@@ -678,44 +629,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="112-group.png" width="32" height="21"/>
+        <image name="112-group.png" width="16" height="16"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="clubsDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/clubsDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="favoriteToggleChanged:"/>
-                <relationship kind="outlet" name="contactLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="descriptionLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="favoriteToggle" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="meetLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="membersLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="clubsFirstViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/clubsFirstViewController.h"/>
-        </class>
-        <class className="favDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/favDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="contactLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="descriptionLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="favoriteToggle" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="meetLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="membersLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="favoriteViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/favoriteViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

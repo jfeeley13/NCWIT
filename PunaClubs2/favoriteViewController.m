@@ -30,36 +30,24 @@
 - (void)viewDidLoad
 {
     self.navigationItem.title = @"Favorite Clubs";        // Title of screen is Favorite Clubs
-   NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Clubs"ofType:@"plist"]; //thePath fills with plist info
-    
+ //  NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Clubs"ofType:@"plist"]; //thePath fills with plist info
+    [super viewDidLoad];
+
     //Loading:
     NSArray *sysPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask, YES);
     NSString *prefsDirectory = [[sysPaths objectAtIndex:0] stringByAppendingPathComponent:@"/Preferences"];
     NSString *outputFilePath=[prefsDirectory stringByAppendingPathComponent:@"Clubs.plist"];
-  //  NSArray *prefsArray = [[NSArray alloc] initWithContentsOfFile:outputFilePath];
-        [super viewDidLoad];
-    
-    _objects = [[NSMutableArray alloc]initWithContentsOfFile:thePath];  //object mutable array takes plist contents
+    NSArray *prefsArray = [[NSArray alloc] initWithContentsOfFile:outputFilePath];
+
     favoritesArray = [[NSMutableArray alloc]init];
    
-     for (NSDictionary *dict in _objects)
+     for (NSDictionary *dict in prefsArray)
      {
      NSLog(@"Favorites: %@",[dict objectForKey:@"Favorites"]);
      if ([[dict objectForKey:@"Favorites"] isEqualToString:@"1"])
-     //[favoritesArray insertObject:dict atIndex:1];     //FavArray fills with just clubs thare are "1" ADD DICT?
      [favoritesArray addObject:dict];
-     NSLog(@"DICT= %@", dict);       //NSLogs each club + info
+     NSLog(@"DICT= %@", dict);                              //NSLogs each club + info
      }
-   
-     /*
-    for (int i = 0; i < 16; i++)
-    {
-        NSDictionary *dict = [_objects objectAtIndex:i];
-        if ([[dict objectForKey:@"Favorites"] isEqualToString:@"1"])
-            [favoritesArray addObject:dict];
-    }
-    NSLog(@"FAV= %@", favoritesArray);  //NSlog null???
-       */
 }
 
 
@@ -93,34 +81,15 @@
         {
             cell.textLabel.text = [[favoritesArray objectAtIndex:indexPath.row]objectForKey:@"Name"];
         }
-        NSLog(@"DICT2= %@", dict);
+      //  NSLog(@"DICT2= %@", dict);
     }
     return cell;
 }
-/*
- 
- - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
- {
- UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"favClubNames" forIndexPath:indexPath];
- 
- cell.textLabel.text = [[favoritesArray objectAtIndex:indexPath.row]objectForKey:@"Name"];
- NSLog(@"FAV2= %@", favoritesArray);
- 
- return cell;
- }
- */
+
 
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Navigation logic may go here. Create and push another view controller.
-    clubsDetailViewController *detailViewController = [[clubsDetailViewController alloc] initWithNibName:@"clubDetailViewController2" bundle:nil];
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    
-}
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     [segue.destinationViewController  setDetailItem:[favoritesArray objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];

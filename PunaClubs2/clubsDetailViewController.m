@@ -48,50 +48,70 @@
     _contactLabel.font = [UIFont systemFontOfSize:17];  //Contact label (email) max font 17 or smaller
     _meetLabel.font = [UIFont systemFontOfSize:17];      //same for meet label
     _meetLabel.adjustsFontSizeToFitWidth = YES;
+
+    NSArray *sysPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask, YES);
+    NSString *prefsDirectory = [[sysPaths objectAtIndex:0] stringByAppendingPathComponent:@"/Preferences"];
+    NSString *outputFilePath=[prefsDirectory stringByAppendingPathComponent:@"Clubs.plist"];
+    NSArray *prefsArray = [[NSArray alloc] initWithContentsOfFile:outputFilePath];
     
-        if ([_objects objectForKey:@"Favorites"]== 0)
+    for (NSDictionary *dict in prefsArray)
     {
-        (self.favoriteToggle.selectedSegmentIndex = 1);
+        if ([[dict objectForKey:@"Name"] isEqual:[_objects objectForKey:@"Name"]])
+        {
+            if ([[dict objectForKey:@"Favorites"] isEqualToString:@"1"])
+            {
+                (self.favoriteToggle.selectedSegmentIndex = 1);
+            }
+            else
+            {
+                (self.favoriteToggle.selectedSegmentIndex = 0);
+            }
+        }
     }
-    else
-    {
-        (self.favoriteToggle.selectedSegmentIndex = 0);
-    }
+
     [super viewDidLoad];
 }
 
 - (IBAction)favoriteToggleChanged:(id)sender
 {
-    /*
-          NSString *labels = [[NSBundle mainBundle] pathForResource:@"Property List"ofType:@"plist"];
-     NSArray *array = [labels pathComponents];
-     NSMutableArray *tempArray = [[NSMutableArray alloc] initWithArray:array];
-     for (int i = 0; i < [tempArray count]; i++)
-     {
-     if ([[[tempArray objectAtIndex:i] objectForKey:@"Name"] isEqual:[_objects objectForKey:@"Name"]])
-     {
-     [tempArray objectAtIndex:i];
-     }
-     }
-     */
-    
-    
     // From Nathan - NEW code for saving/loading
     
-    NSArray *sysPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask, YES);
-     NSString *prefsDirectory = [[sysPaths objectAtIndex:0] stringByAppendingPathComponent:@"/Preferences"];
-     NSString *outputFilePath=[prefsDirectory stringByAppendingPathComponent:@"Clubs.plist"];
-     NSLog(@"%@",outputFilePath);
-     
-  //   [[self serializeArray:self.pieces] writeToFile:outputFilePath atomically:YES];
+    NSArray *sysPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask, YES);      //return array of paths
+     NSString *prefsDirectory = [[sysPaths objectAtIndex:0] stringByAppendingPathComponent:@"/Preferences"];  //link to prefrences
+     NSString *outputFilePath=[prefsDirectory stringByAppendingPathComponent:@"Clubs.plist"];  //
+     NSLog(@"%@",outputFilePath);                   // NSLogs: /Users/jfeeley13/Library/Application Support/iPhone Simulator/6.0/Applications/69507008-0B2F-4C75-8521-5328E69602F4/Library/Preferences/Clubs.plist
 
-    NSArray *prefsArray = [[NSArray alloc] initWithContentsOfFile:outputFilePath];
+    NSArray *prefsArray = [[NSArray alloc] initWithContentsOfFile:outputFilePath];      //array of everything in plist?
+    //NSLog(@"PREFSARRAY%@",prefsArray);
     
-    NSString *labels = [[NSBundle mainBundle] pathForResource:@"Property List"ofType:@"plist"];
-    NSArray *array = [labels pathComponents];
-    [array writeToFile:labels atomically:YES];
-    
-    //NSUSERDEFAULTS
+    if(self.favoriteToggle.selectedSegmentIndex = 1)    //when you click to Yes
+    {
+        for (NSDictionary *dict in prefsArray)
+        {
+            if ([[dict objectForKey:@"Name"] isEqual:[_objects objectForKey:@"Name"]])
+            {
+                if ([[dict objectForKey:@"Favorites"] isEqualToString:@"0"])
+                {
+                    [dict setValue:(@"1") forKey:@"Favorites"]; //HERE SOMEHOW CHANGE PLIST FAV VALUE TO 1
+                    NSLog(@"DICT=%@",dict);
+                }
+                else
+                {
+                    [dict setValue:(@"0") forKey:@"Favorites"]; //HERE SOMEHOW CHANGE PLIST FAV VALUE TO 1
+                    NSLog(@"DICT2=%@",dict);
+
+                }
+            }
+        }
+    }
+    if(self.favoriteToggle.selectedSegmentIndex = 0)    //when you click to Yes
+    {
+               
+    }
+
+        [prefsArray writeToFile:outputFilePath atomically:YES];
+
+    /*NSUSERDEFAULTS
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *clubName = [_nameLabel text];             //Saves Club Name in defaults
     
@@ -102,6 +122,7 @@
         [_objects setValue:(@"1") forKey:@"Favorites"]; //HERE SOMEHOW CHANGE PLIST FAV VALUE TO 1
     }
     NSLog(@"%@",clubName);
+     */
 }
 
 

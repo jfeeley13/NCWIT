@@ -60,10 +60,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
     cell.textLabel.text = [[_objects objectAtIndex:indexPath.row]objectForKey:@"Name"];
     return cell;
-    
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -76,7 +74,6 @@
 {
     
     [segue.destinationViewController  setDetailItem:[_objects objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
-    
 }
 
 

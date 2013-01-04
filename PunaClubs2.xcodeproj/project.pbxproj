@@ -17,9 +17,6 @@
 		C0FEBFC71696A094008D324E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFC51696A094008D324E /* InfoPlist.strings */; };
 		C0FEBFC91696A094008D324E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBFC81696A094008D324E /* main.m */; };
 		C0FEBFCD1696A094008D324E /* clubsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBFCC1696A094008D324E /* clubsAppDelegate.m */; };
-		C0FEBFCF1696A094008D324E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFCE1696A094008D324E /* Default.png */; };
-		C0FEBFD11696A094008D324E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFD01696A094008D324E /* Default@2x.png */; };
-		C0FEBFD31696A094008D324E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFD21696A094008D324E /* Default-568h@2x.png */; };
 		C0FEBFEB1696A0CD008D324E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFEA1696A0CD008D324E /* MainStoryboard.storyboard */; };
 		C0FEBFFE1696A35E008D324E /* clubsFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBFFD1696A35E008D324E /* clubsFirstViewController.m */; };
 		C0FEC0021696A8BD008D324E /* Clubs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0FEC0011696A8BD008D324E /* Clubs.plist */; };
@@ -43,18 +40,13 @@
 		C0FEBFCA1696A094008D324E /* PunaClubs2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PunaClubs2-Prefix.pch"; sourceTree = "<group>"; };
 		C0FEBFCB1696A094008D324E /* clubsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clubsAppDelegate.h; sourceTree = "<group>"; };
 		C0FEBFCC1696A094008D324E /* clubsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clubsAppDelegate.m; sourceTree = "<group>"; };
-		C0FEBFCE1696A094008D324E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C0FEBFD01696A094008D324E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C0FEBFD21696A094008D324E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C0FEBFEA1696A0CD008D324E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C0FEBFEC1696A105008D324E /* PunaClubs app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs app icon.png"; sourceTree = "<group>"; };
 		C0FEBFED1696A105008D324E /* PunaClubs app icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs app icon2.png"; sourceTree = "<group>"; };
 		C0FEBFEE1696A105008D324E /* PunaClubs big app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs big app icon.png"; sourceTree = "<group>"; };
 		C0FEBFEF1696A105008D324E /* PunaClubs large app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs large app icon.png"; sourceTree = "<group>"; };
-		C0FEBFF51696A105008D324E /* favoritesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = favoritesViewController.m; path = ../favoritesViewController.m; sourceTree = "<group>"; };
 		C0FEBFF81696A105008D324E /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Property List.plist"; path = "../Property List.plist"; sourceTree = "<group>"; };
 		C0FEBFF91696A105008D324E /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
-		C0FEBFFA1696A105008D324E /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
 		C0FEBFFC1696A35D008D324E /* clubsFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubsFirstViewController.h; sourceTree = "<group>"; };
 		C0FEBFFD1696A35E008D324E /* clubsFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsFirstViewController.m; sourceTree = "<group>"; };
 		C0FEC0011696A8BD008D324E /* Clubs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Clubs.plist; path = ../Clubs.plist; sourceTree = "<group>"; };
@@ -83,7 +75,6 @@
 				C0FEBFEE1696A105008D324E /* PunaClubs big app icon.png */,
 				C0FEBFEF1696A105008D324E /* PunaClubs large app icon.png */,
 				C0FEBFF91696A105008D324E /* 28-star.png */,
-				C0FEBFFA1696A105008D324E /* 112-group.png */,
 				C0FEBFC21696A094008D324E /* PunaClubs2 */,
 				C0FEBFBB1696A094008D324E /* Frameworks */,
 				C0FEBFB91696A094008D324E /* Products */,
@@ -115,7 +106,6 @@
 				C0FEBFFD1696A35E008D324E /* clubsFirstViewController.m */,
 				C03EAE711696AD11008C77DD /* clubsDetailViewController.h */,
 				C03EAE721696AD11008C77DD /* clubsDetailViewController.m */,
-				C0FEBFF51696A105008D324E /* favoritesViewController.m */,
 				C03EAE751696AEA5008C77DD /* favoriteViewController.h */,
 				C03EAE761696AEA6008C77DD /* favoriteViewController.m */,
 				C03EAE781696B41F008C77DD /* favDetailViewController.h */,
@@ -137,9 +127,6 @@
 				C0FEBFC51696A094008D324E /* InfoPlist.strings */,
 				C0FEBFC81696A094008D324E /* main.m */,
 				C0FEBFCA1696A094008D324E /* PunaClubs2-Prefix.pch */,
-				C0FEBFCE1696A094008D324E /* Default.png */,
-				C0FEBFD01696A094008D324E /* Default@2x.png */,
-				C0FEBFD21696A094008D324E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,9 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0FEBFC71696A094008D324E /* InfoPlist.strings in Resources */,
-				C0FEBFCF1696A094008D324E /* Default.png in Resources */,
-				C0FEBFD11696A094008D324E /* Default@2x.png in Resources */,
-				C0FEBFD31696A094008D324E /* Default-568h@2x.png in Resources */,
 				C0FEBFEB1696A0CD008D324E /* MainStoryboard.storyboard in Resources */,
 				C0FEC0021696A8BD008D324E /* Clubs.plist in Resources */,
 				C03EAE7C1696B537008C77DD /* 28-star.png in Resources */,
