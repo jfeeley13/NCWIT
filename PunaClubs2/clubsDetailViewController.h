@@ -12,7 +12,6 @@
 
 
 @property (strong, nonatomic) id detailItem;
-@property (nonatomic, strong) NSMutableArray *clubs;
 
 @property (nonatomic, retain) IBOutlet UITextField *detailDescriptionLabel;
 @property (nonatomic, retain) IBOutlet UITextView *descriptionLabel;

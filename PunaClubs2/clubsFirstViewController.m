@@ -12,13 +12,11 @@
 
 @interface clubsFirstViewController ()
 {
-    NSMutableArray *_objects;
+    NSMutableArray *_objects; //Array of clubject filled from plist
 }
 @end
 
 @implementation clubsFirstViewController
-@synthesize clubs=_objects;
-
 
 - (void)awakeFromNib
 {
@@ -27,23 +25,17 @@
 
 - (void)viewDidLoad
 {
-    self.navigationItem.title = @"Club List";
-    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Clubs"ofType:@"plist"];
+    self.navigationItem.title = @"Club List"; //name of first screen
+    NSString *thePath = [[NSBundle mainBundle] pathForResource:@"Clubs"ofType:@"plist"]; //link to plist of clubs
     [super viewDidLoad];
-    _objects = [[NSMutableArray alloc]initWithContentsOfFile:thePath];
-  //  NSLog(@" %@", _objects);
+    _objects = [[NSMutableArray alloc]initWithContentsOfFile:thePath]; //array fills with clubs from plist
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
-
-- (BOOL)textFieldShouldReturn: (UITextField *)textField
-{
-    [textField resignFirstResponder];
-    return YES;
-}
+ 
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -53,22 +45,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"Number of rows: %d", _objects.count);
+    NSLog(@"Number of rows: %d", _objects.count);  //number of clubs = 68
     return _objects.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row]objectForKey:@"Name"];
+    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row]objectForKey:@"Name"];   //tableview cells of each club name
     return cell;
 }
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return YES;
-}
-
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

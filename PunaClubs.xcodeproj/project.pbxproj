@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1715D84C17951AEB00B82F84 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1715D84B17951AEB00B82F84 /* 20-gear2.png */; };
 		C03EAE731696AD11008C77DD /* clubsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE721696AD11008C77DD /* clubsDetailViewController.m */; };
 		C03EAE771696AEA6008C77DD /* favoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE761696AEA6008C77DD /* favoriteViewController.m */; };
 		C03EAE7A1696B41F008C77DD /* favDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE791696B41F008C77DD /* favDetailViewController.m */; };
 		C03EAE7C1696B537008C77DD /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = C03EAE7B1696B537008C77DD /* 28-star.png */; };
+		C08CE46F1696EBE000A8938D /* PunaClubs app icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFEC1696A105008D324E /* PunaClubs app icon.png */; };
+		C08CE4701696EBE400A8938D /* PunaClubs app icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBFED1696A105008D324E /* PunaClubs app icon2.png */; };
+		C08CE472169767E500A8938D /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = C08CE471169767E500A8938D /* group.png */; };
+		C08CE4741697686D00A8938D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C08CE4731697686D00A8938D /* Default.png */; };
+		C08CE4761697687200A8938D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08CE4751697687200A8938D /* Default@2x.png */; };
+		C08CE4781697687800A8938D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08CE4771697687800A8938D /* Default-568h@2x.png */; };
 		C0FEBFBD1696A094008D324E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBFBC1696A094008D324E /* UIKit.framework */; };
 		C0FEBFBF1696A094008D324E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBFBE1696A094008D324E /* Foundation.framework */; };
 		C0FEBFC11696A094008D324E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBFC01696A094008D324E /* CoreGraphics.framework */; };
@@ -23,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1715D84B17951AEB00B82F84 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
 		C03EAE711696AD11008C77DD /* clubsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubsDetailViewController.h; sourceTree = "<group>"; };
 		C03EAE721696AD11008C77DD /* clubsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsDetailViewController.m; sourceTree = "<group>"; };
 		C03EAE751696AEA5008C77DD /* favoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = favoriteViewController.h; sourceTree = "<group>"; };
@@ -30,11 +38,15 @@
 		C03EAE781696B41F008C77DD /* favDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = favDetailViewController.h; sourceTree = "<group>"; };
 		C03EAE791696B41F008C77DD /* favDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = favDetailViewController.m; sourceTree = "<group>"; };
 		C03EAE7B1696B537008C77DD /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
-		C0FEBFB81696A094008D324E /* PunaClubs2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunaClubs2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08CE471169767E500A8938D /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		C08CE4731697686D00A8938D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C08CE4751697687200A8938D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C08CE4771697687800A8938D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0FEBFB81696A094008D324E /* PunaClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunaClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FEBFBC1696A094008D324E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0FEBFBE1696A094008D324E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0FEBFC01696A094008D324E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C0FEBFC41696A094008D324E /* PunaClubs2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PunaClubs2-Info.plist"; sourceTree = "<group>"; };
+		C0FEBFC41696A094008D324E /* PunaClubs2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PunaClubs2-Info.plist"; path = "PunaClubs2/PunaClubs2-Info.plist"; sourceTree = "<group>"; };
 		C0FEBFC61696A094008D324E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0FEBFC81696A094008D324E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0FEBFCA1696A094008D324E /* PunaClubs2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PunaClubs2-Prefix.pch"; sourceTree = "<group>"; };
@@ -45,11 +57,11 @@
 		C0FEBFED1696A105008D324E /* PunaClubs app icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs app icon2.png"; sourceTree = "<group>"; };
 		C0FEBFEE1696A105008D324E /* PunaClubs big app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs big app icon.png"; sourceTree = "<group>"; };
 		C0FEBFEF1696A105008D324E /* PunaClubs large app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PunaClubs large app icon.png"; sourceTree = "<group>"; };
-		C0FEBFF81696A105008D324E /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Property List.plist"; path = "../Property List.plist"; sourceTree = "<group>"; };
+		C0FEBFF81696A105008D324E /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		C0FEBFF91696A105008D324E /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
 		C0FEBFFC1696A35D008D324E /* clubsFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubsFirstViewController.h; sourceTree = "<group>"; };
 		C0FEBFFD1696A35E008D324E /* clubsFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsFirstViewController.m; sourceTree = "<group>"; };
-		C0FEC0011696A8BD008D324E /* Clubs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Clubs.plist; path = ../Clubs.plist; sourceTree = "<group>"; };
+		C0FEC0011696A8BD008D324E /* Clubs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Clubs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +81,20 @@
 		C0FEBFAD1696A094008D324E = {
 			isa = PBXGroup;
 			children = (
+				C08CE4771697687800A8938D /* Default-568h@2x.png */,
+				C08CE4751697687200A8938D /* Default@2x.png */,
+				C08CE4731697686D00A8938D /* Default.png */,
 				C0FEBFEC1696A105008D324E /* PunaClubs app icon.png */,
 				C0FEBFED1696A105008D324E /* PunaClubs app icon2.png */,
 				C03EAE7B1696B537008C77DD /* 28-star.png */,
 				C0FEBFEE1696A105008D324E /* PunaClubs big app icon.png */,
 				C0FEBFEF1696A105008D324E /* PunaClubs large app icon.png */,
+				C08CE471169767E500A8938D /* group.png */,
 				C0FEBFF91696A105008D324E /* 28-star.png */,
+				1715D84B17951AEB00B82F84 /* 20-gear2.png */,
+				C0FEC0011696A8BD008D324E /* Clubs.plist */,
+				C0FEBFC41696A094008D324E /* PunaClubs2-Info.plist */,
+				C0FEBFF81696A105008D324E /* Property List.plist */,
 				C0FEBFC21696A094008D324E /* PunaClubs2 */,
 				C0FEBFBB1696A094008D324E /* Frameworks */,
 				C0FEBFB91696A094008D324E /* Products */,
@@ -84,7 +104,7 @@
 		C0FEBFB91696A094008D324E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0FEBFB81696A094008D324E /* PunaClubs2.app */,
+				C0FEBFB81696A094008D324E /* PunaClubs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +141,6 @@
 		C0FEBFC31696A094008D324E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0FEC0011696A8BD008D324E /* Clubs.plist */,
-				C0FEBFF81696A105008D324E /* Property List.plist */,
-				C0FEBFC41696A094008D324E /* PunaClubs2-Info.plist */,
 				C0FEBFC51696A094008D324E /* InfoPlist.strings */,
 				C0FEBFC81696A094008D324E /* main.m */,
 				C0FEBFCA1696A094008D324E /* PunaClubs2-Prefix.pch */,
@@ -134,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0FEBFB71696A094008D324E /* PunaClubs2 */ = {
+		C0FEBFB71696A094008D324E /* PunaClubs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0FEBFE71696A094008D324E /* Build configuration list for PBXNativeTarget "PunaClubs2" */;
+			buildConfigurationList = C0FEBFE71696A094008D324E /* Build configuration list for PBXNativeTarget "PunaClubs" */;
 			buildPhases = (
 				C0FEBFB41696A094008D324E /* Sources */,
 				C0FEBFB51696A094008D324E /* Frameworks */,
@@ -146,9 +163,9 @@
 			);
 			dependencies = (
 			);
-			name = PunaClubs2;
+			name = PunaClubs;
 			productName = PunaClubs2;
-			productReference = C0FEBFB81696A094008D324E /* PunaClubs2.app */;
+			productReference = C0FEBFB81696A094008D324E /* PunaClubs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +178,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = JFeeley13;
 			};
-			buildConfigurationList = C0FEBFB21696A094008D324E /* Build configuration list for PBXProject "PunaClubs2" */;
+			buildConfigurationList = C0FEBFB21696A094008D324E /* Build configuration list for PBXProject "PunaClubs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0FEBFB71696A094008D324E /* PunaClubs2 */,
+				C0FEBFB71696A094008D324E /* PunaClubs */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +204,13 @@
 				C0FEBFEB1696A0CD008D324E /* MainStoryboard.storyboard in Resources */,
 				C0FEC0021696A8BD008D324E /* Clubs.plist in Resources */,
 				C03EAE7C1696B537008C77DD /* 28-star.png in Resources */,
+				1715D84C17951AEB00B82F84 /* 20-gear2.png in Resources */,
+				C08CE46F1696EBE000A8938D /* PunaClubs app icon.png in Resources */,
+				C08CE4701696EBE400A8938D /* PunaClubs app icon2.png in Resources */,
+				C08CE472169767E500A8938D /* group.png in Resources */,
+				C08CE4741697686D00A8938D /* Default.png in Resources */,
+				C08CE4761697687200A8938D /* Default@2x.png in Resources */,
+				C08CE4781697687800A8938D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PunaClubs2/PunaClubs2-Prefix.pch";
 				INFOPLIST_FILE = "PunaClubs2/PunaClubs2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PunaClubs;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,7 +311,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PunaClubs2/PunaClubs2-Prefix.pch";
 				INFOPLIST_FILE = "PunaClubs2/PunaClubs2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PunaClubs;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -295,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0FEBFB21696A094008D324E /* Build configuration list for PBXProject "PunaClubs2" */ = {
+		C0FEBFB21696A094008D324E /* Build configuration list for PBXProject "PunaClubs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0FEBFE51696A094008D324E /* Debug */,
@@ -304,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0FEBFE71696A094008D324E /* Build configuration list for PBXNativeTarget "PunaClubs2" */ = {
+		C0FEBFE71696A094008D324E /* Build configuration list for PBXNativeTarget "PunaClubs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0FEBFE81696A094008D324E /* Debug */,

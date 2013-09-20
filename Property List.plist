@@ -356,7 +356,7 @@
 		<key>Name</key>
 		<string>HIPPO Club</string>
 		<key>Contact</key>
-		<string>Tom Gammarino</string>
+		<string>mgammarino@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -370,7 +370,7 @@
 		<key>Name</key>
 		<string>HUGS</string>
 		<key>Contact</key>
-		<string>tgammarino@punahou.edu</string>
+		<string>apaer@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -410,7 +410,7 @@
 	</dict>
 	<dict>
 		<key>Name</key>
-		<string>Japanese Okinawin Club</string>
+		<string>Japanese Okinawan Club</string>
 		<key>Contact</key>
 		<string>jasato@punahou.edu</string>
 		<key>Meet</key>
@@ -526,7 +526,7 @@
 		<key>Contact</key>
 		<string>eeads@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Fridays after school</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -596,7 +596,7 @@
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Contact</key>
-		<string>mPavitch@punahou.edu</string>
+		<string>mpavich@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -636,9 +636,9 @@
 		<key>Name</key>
 		<string>Punavision</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Rolling Schedule</string>
 		<key>Contact</key>
-		<string>ybiersch@punahou.edu</string>
+		<string>ybiersach@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -650,7 +650,7 @@
 		<key>Name</key>
 		<string>Raiders Club</string>
 		<key>Contact</key>
-		<string>Bob Takao</string>
+		<string>rtakao@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -662,7 +662,7 @@
 	</dict>
 	<dict>
 		<key>Name</key>
-		<string>Risky Buisness</string>
+		<string>Risky Business</string>
 		<key>Contact</key>
 		<string>eeads@punahou.edu</string>
 		<key>Meet</key>
@@ -680,7 +680,7 @@
 		<key>Meet</key>
 		<string>Sundays 2-4 pm</string>
 		<key>Contact</key>
-		<string>evaraday13@punahou.edu</string>
+		<string>evarady13@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -694,7 +694,7 @@
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Contact</key>
-		<string>cmaunkea@punahou.edu</string>
+		<string>emcguire@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -720,7 +720,7 @@
 		<key>Name</key>
 		<string>Save the Ala Wai</string>
 		<key>Contact</key>
-		<string>mMacLeod@punahou.edu</string>
+		<string>mmacleod@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>

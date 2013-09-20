@@ -6,7 +6,7 @@
 		<key>Name</key>
 		<string>Anime &amp; Manga Club</string>
 		<key>Meet</key>
-		<string>Thursdays &amp; Fridays</string>
+		<string>Thursday Meetings &amp; Friday Movies</string>
 		<key>Contact</key>
 		<string>aliem@punahou.edu</string>
 		<key>Members</key>
@@ -34,7 +34,7 @@
 		<key>Name</key>
 		<string>Baking Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
 		<key>Contact</key>
 		<string>mkaya@punahou.edu</string>
 		<key>Members</key>
@@ -50,7 +50,7 @@
 		<key>Contact</key>
 		<string>dsweeney@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Tuesdays 3:30-5pm</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -64,7 +64,7 @@
 		<key>Contact</key>
 		<string>gpeiterson@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Every Tuesday from Jan-Feb in Gates</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -76,7 +76,7 @@
 		<key>Name</key>
 		<string>Book Club</string>
 		<key>Meet</key>
-		<string>Mondays @3:35pm A 213</string>
+		<string>Tuesdays @ A213 3:30-4:30</string>
 		<key>Contact</key>
 		<string>pbarraza@punahou.edu</string>
 		<key>Members</key>
@@ -92,7 +92,7 @@
 		<key>Contact</key>
 		<string>lchang-blust@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -117,12 +117,10 @@
 	<dict>
 		<key>Name</key>
 		<string>Club DaKind</string>
+		<key>Meet</key>
+		<string>No regular meetings are scheduled</string>
 		<key>Contact</key>
 		<string>tyamamoto-edwards@punahou.edu</string>
-		<key>Meet</key>
-		<string>Not Scheduled</string>
-		<key>Members</key>
-		<string>YES</string>
 		<key>Favorites</key>
 		<string>0</string>
 		<key>Description</key>
@@ -148,7 +146,7 @@
 		<key>Contact</key>
 		<string>mbassford@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -162,7 +160,7 @@
 		<key>Contact</key>
 		<string>koneil@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>One weekend a month for a ride</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -188,7 +186,7 @@
 		<key>Name</key>
 		<string>Easter Seals</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
 		<key>Contact</key>
 		<string>jduncan@punahou.edu</string>
 		<key>Members</key>
@@ -242,11 +240,25 @@
 	</dict>
 	<dict>
 		<key>Name</key>
+		<string>Fellowship of Christian Athletes</string>
+		<key>Meet</key>
+		<string>Irregular but at 3:30 outside Thurston</string>
+		<key>Contact</key>
+		<string>kcockett@punahou.edu</string>
+		<key>Members</key>
+		<string>YES</string>
+		<key>Description</key>
+		<string>The club will give students and athletes a venue for support and an avenue to express their faith together through worship, fellowship, and service.</string>
+		<key>Favorites</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>Name</key>
 		<string>Filipino Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>One Monday a month</string>
 		<key>Contact</key>
-		<string>Mskinner@punahou.edu</string>
+		<string>mskinner@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -258,9 +270,9 @@
 		<key>Name</key>
 		<string>Film Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Fridays in P103 for movies</string>
 		<key>Contact</key>
-		<string>Sdare@punahou.edu</string>
+		<string>sdare@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -274,7 +286,7 @@
 		<key>Contact</key>
 		<string>Cligner@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Last Friday of every month @ P101 3:30-4:20</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -286,7 +298,7 @@
 		<key>Name</key>
 		<string>Gay-Straight Alliance</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Mondays in P102 3:40-4:30</string>
 		<key>Contact</key>
 		<string>Alazzara@punahou.edu</string>
 		<key>Members</key>
@@ -302,7 +314,7 @@
 		<key>Contact</key>
 		<string>bJohnson@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Fridays from 3:30-4:15</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -328,7 +340,7 @@
 		<key>Name</key>
 		<string>Hafu/Nipponjin Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings are scheduled</string>
 		<key>Contact</key>
 		<string>dbrunner@punahou.edu</string>
 		<key>Members</key>
@@ -342,9 +354,9 @@
 		<key>Name</key>
 		<string>Hale Hawaii Club</string>
 		<key>Contact</key>
-		<string>mBassford@punahou.edu</string>
+		<string>mbassford@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -355,24 +367,24 @@
 	<dict>
 		<key>Name</key>
 		<string>HIPPO Club</string>
-		<key>Contact</key>
-		<string>Tom Gammarino</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings are scheduled</string>
+		<key>Contact</key>
+		<string>mgammarino@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
-		<string>Our goal is to not only promote global awareness and relations between Punahou and a diverse set of nations, but to also foster international friendships. As a secondary goal, we would like to promote the use of a pencil and paper to appreciate and preserve the anticipation and excitement of our world&apos;s very first means of communication.</string>
+		<string>(Hawaii International PenPal Organization) Our goal is to not only promote global awareness and relations between Punahou and a diverse set of nations, but to also foster international friendships. As a secondary goal, we would like to promote the use of a pencil and paper to appreciate and preserve the anticipation and excitement of our world&apos;s very first means of communication.</string>
 		<key>Favorites</key>
 		<string>0</string>
 	</dict>
 	<dict>
 		<key>Name</key>
 		<string>HUGS</string>
-		<key>Contact</key>
-		<string>tgammarino@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
+		<key>Contact</key>
+		<string>apaer@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -400,7 +412,7 @@
 		<key>Contact</key>
 		<string>jsinger13@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Every other Thursday 3:45-5:15</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -414,7 +426,7 @@
 		<key>Contact</key>
 		<string>jasato@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings are scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -442,7 +454,7 @@
 		<key>Contact</key>
 		<string>sfranz@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>2nd and 4th Wednesday of the month</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -484,7 +496,7 @@
 		<key>Contact</key>
 		<string>abender@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Tuesdays &amp; Fridays 3:30-4:30</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -496,7 +508,7 @@
 		<key>Name</key>
 		<string>Meat Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No regular meetings scheduled</string>
 		<key>Contact</key>
 		<string>jBelli@punahou.edu</string>
 		<key>Members</key>
@@ -526,7 +538,7 @@
 		<key>Contact</key>
 		<string>eeads@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Fridays afternoon P105</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -538,7 +550,7 @@
 		<key>Name</key>
 		<string>Ka Moana Fishing Club</string>
 		<key>Contact</key>
-		<string>mKaya@punahou.edu</string>
+		<string>mkaya@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -568,7 +580,7 @@
 		<key>Contact</key>
 		<string>mstaab14@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Fridays at the wheel studio</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -582,7 +594,7 @@
 		<key>Contact</key>
 		<string>lmedeiros@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -594,9 +606,9 @@
 		<key>Name</key>
 		<string>Polynesian Club</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings scheduled</string>
 		<key>Contact</key>
-		<string>mPavitch@punahou.edu</string>
+		<string>mpavitch@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -608,9 +620,9 @@
 		<key>Name</key>
 		<string>Punahou Lacrosse Club</string>
 		<key>Contact</key>
-		<string>cdurso@punahou.edu</string>
+		<string>tdurso@camber.com</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Mon-Fri at Manoa District Park 4:30-6:30</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -636,11 +648,11 @@
 		<key>Name</key>
 		<string>Punavision</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
-		<key>Contact</key>
-		<string>ybiersch@punahou.edu</string>
+		<string>Rolling Schedule</string>
 		<key>Members</key>
 		<string>YES</string>
+		<key>Contact</key>
+		<string>ybiersach@punahou.edu</string>
 		<key>Description</key>
 		<string>The Punavision Club produces news journalism stories about the people, places, and events of Punahou School. These stories air on local community television and are posted on the Club&apos;s YouTube channel.</string>
 		<key>Favorites</key>
@@ -649,10 +661,10 @@
 	<dict>
 		<key>Name</key>
 		<string>Raiders Club</string>
-		<key>Contact</key>
-		<string>Bob Takao</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings scheduled</string>
+		<key>Contact</key>
+		<string>rtakao@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -662,7 +674,7 @@
 	</dict>
 	<dict>
 		<key>Name</key>
-		<string>Risky Buisness</string>
+		<string>Risky Business</string>
 		<key>Contact</key>
 		<string>eeads@punahou.edu</string>
 		<key>Meet</key>
@@ -680,7 +692,7 @@
 		<key>Meet</key>
 		<string>Sundays 2-4 pm</string>
 		<key>Contact</key>
-		<string>evaraday13@punahou.edu</string>
+		<string>evarady13@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -694,7 +706,7 @@
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Contact</key>
-		<string>cmaunkea@punahou.edu</string>
+		<string>emcguire@punahou.edu</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -720,9 +732,9 @@
 		<key>Name</key>
 		<string>Save the Ala Wai</string>
 		<key>Contact</key>
-		<string>mMacLeod@punahou.edu</string>
+		<string>mmacleod@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>No meetings scheduled</string>
 		<key>Members</key>
 		<string>YES</string>
 		<key>Description</key>
@@ -736,11 +748,11 @@
 		<key>Meet</key>
 		<string>3:30 on Thurs (till Jan)</string>
 		<key>Contact</key>
-		<string>zlee13@punahou.edu</string>
+		<string>zma13@punahou.edu</string>
 		<key>Members</key>
 		<string>Full</string>
 		<key>Description</key>
-		<string>Sc...</string>
+		<string>Science bowl is a club that prepares for an annual science competition. The competition is hosted by the US Department of Energy, and the questions come from a wide range of categories such as Earth and Space Science, Biology, and Math. We meet on Thursdays at 3:30, September to January</string>
 		<key>Favorites</key>
 		<string>0</string>
 	</dict>
@@ -748,7 +760,7 @@
 		<key>Name</key>
 		<string>Service Learning Club</string>
 		<key>Contact</key>
-		<string>cAckerman@punahou.edu</string>
+		<string>cackerman@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -776,9 +788,9 @@
 		<key>Name</key>
 		<string>Speech &amp; Debate Team</string>
 		<key>Contact</key>
-		<string>cHalbur@punahou.edu</string>
+		<string>chalbur@punahou.edu</string>
 		<key>Meet</key>
-		<string>Not Scheduled</string>
+		<string>Tues &amp; Thurs from 3:45-5:00pm</string>
 		<key>Members</key>
 		<string>Full</string>
 		<key>Description</key>
@@ -790,7 +802,7 @@
 		<key>Name</key>
 		<string>Sports R Us</string>
 		<key>Contact</key>
-		<string>pBarraza@punahou.edu</string>
+		<string>pbarraza@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
@@ -818,7 +830,7 @@
 		<key>Name</key>
 		<string>Student World Leaders</string>
 		<key>Contact</key>
-		<string>cReddy@punahou.edu</string>
+		<string>creddy@punahou.edu</string>
 		<key>Meet</key>
 		<string>Not Scheduled</string>
 		<key>Members</key>
