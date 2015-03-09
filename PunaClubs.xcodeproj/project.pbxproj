@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1715D84C17951AEB00B82F84 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1715D84B17951AEB00B82F84 /* 20-gear2.png */; };
+		179CEEF91AA04678001D7A5C /* Katherine Johnson To the Moon and Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 179CEEF81AA04678001D7A5C /* Katherine Johnson To the Moon and Back.png */; };
 		C03EAE731696AD11008C77DD /* clubsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE721696AD11008C77DD /* clubsDetailViewController.m */; };
 		C03EAE771696AEA6008C77DD /* favoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE761696AEA6008C77DD /* favoriteViewController.m */; };
 		C03EAE7A1696B41F008C77DD /* favDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03EAE791696B41F008C77DD /* favDetailViewController.m */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		1715D84B17951AEB00B82F84 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		179CEEF81AA04678001D7A5C /* Katherine Johnson To the Moon and Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Katherine Johnson To the Moon and Back.png"; sourceTree = "<group>"; };
 		C03EAE711696AD11008C77DD /* clubsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clubsDetailViewController.h; sourceTree = "<group>"; };
 		C03EAE721696AD11008C77DD /* clubsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clubsDetailViewController.m; sourceTree = "<group>"; };
 		C03EAE751696AEA5008C77DD /* favoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = favoriteViewController.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		C0FEBFAD1696A094008D324E = {
 			isa = PBXGroup;
 			children = (
+				179CEEF81AA04678001D7A5C /* Katherine Johnson To the Moon and Back.png */,
 				C08CE4771697687800A8938D /* Default-568h@2x.png */,
 				C08CE4751697687200A8938D /* Default@2x.png */,
 				C08CE4731697686D00A8938D /* Default.png */,
@@ -204,6 +207,7 @@
 				C0FEBFEB1696A0CD008D324E /* MainStoryboard.storyboard in Resources */,
 				C0FEC0021696A8BD008D324E /* Clubs.plist in Resources */,
 				C03EAE7C1696B537008C77DD /* 28-star.png in Resources */,
+				179CEEF91AA04678001D7A5C /* Katherine Johnson To the Moon and Back.png in Resources */,
 				1715D84C17951AEB00B82F84 /* 20-gear2.png in Resources */,
 				C08CE46F1696EBE000A8938D /* PunaClubs app icon.png in Resources */,
 				C08CE4701696EBE400A8938D /* PunaClubs app icon2.png in Resources */,
